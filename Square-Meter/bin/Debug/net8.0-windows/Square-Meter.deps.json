@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Square-Meter/1.0.0": {
+        "runtime": {
+          "Square-Meter.dll": {}
+        },
+        "resources": {
+          "bg/Square-Meter.resources.dll": {
+            "locale": "bg"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Square-Meter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
