@@ -253,6 +253,7 @@
             Controls.Add(heightInputBox);
             DoubleBuffered = true;
             ForeColor = SystemColors.ActiveCaptionText;
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             KeyPreview = true;
             MaximizeBox = false;
             Name = "Form1";

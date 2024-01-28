@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programs\\C#\\Exersise\\SquareWall-Windows-Form\\Square-Meter\\Square-Meter.csproj": {}
+    "C:\\Users\\mirizlivka\\Documents\\GitHub\\Square-Calculator-Code\\Square-Meter\\Square-Meter.csproj": {}
   },
   "projects": {
-    "E:\\Programs\\C#\\Exersise\\SquareWall-Windows-Form\\Square-Meter\\Square-Meter.csproj": {
+    "C:\\Users\\mirizlivka\\Documents\\GitHub\\Square-Calculator-Code\\Square-Meter\\Square-Meter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programs\\C#\\Exersise\\SquareWall-Windows-Form\\Square-Meter\\Square-Meter.csproj",
+        "projectUniqueName": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Square-Calculator-Code\\Square-Meter\\Square-Meter.csproj",
         "projectName": "Square-Meter",
-        "projectPath": "E:\\Programs\\C#\\Exersise\\SquareWall-Windows-Form\\Square-Meter\\Square-Meter.csproj",
+        "projectPath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Square-Calculator-Code\\Square-Meter\\Square-Meter.csproj",
         "packagesPath": "C:\\Users\\mirizlivka\\.nuget\\packages\\",
-        "outputPath": "E:\\Programs\\C#\\Exersise\\SquareWall-Windows-Form\\Square-Meter\\obj\\",
+        "outputPath": "C:\\Users\\mirizlivka\\Documents\\GitHub\\Square-Calculator-Code\\Square-Meter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
