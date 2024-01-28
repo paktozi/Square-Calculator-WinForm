@@ -19,9 +19,9 @@ namespace Square_Meter
         double winReveal;
         double result;
         string total = string.Empty;
-        bool isEmptyHeight = true;
-        bool isEmptyWidth = true;
-        bool isEmptyReveal = true;
+        bool isEmptyHeightBox = true;
+        bool isEmptyWidthBox = true;
+        bool isEmptyRevealBox = true;
         bool totalButtonIsPressed = false;
         public Form1()
         {
@@ -45,7 +45,7 @@ namespace Square_Meter
                 if (double.TryParse(heightInputBox.Text, out height))
                 {
                     height = double.Parse(heightInputBox.Text);
-                    isEmptyHeight = false;
+                    isEmptyHeightBox = false;
                 }
                 else
                 {
@@ -61,7 +61,7 @@ namespace Square_Meter
                 if (double.TryParse(widthInputBox.Text, out width))
                 {
                     width = double.Parse(widthInputBox.Text);
-                    isEmptyWidth = false;
+                    isEmptyWidthBox = false;
                 }
                 else
                 {
@@ -78,7 +78,7 @@ namespace Square_Meter
                 if (double.TryParse(revealInputBox.Text, out winReveal))
                 {
                     winReveal = double.Parse(revealInputBox.Text);
-                    isEmptyReveal = false;
+                    isEmptyRevealBox = false;
                 }
                 else
                 {
@@ -90,14 +90,14 @@ namespace Square_Meter
 
         private void CalculateButtonClick(object sender, EventArgs e)              // Calculate button
         {
-            if (wallCheckButton.Checked && !isEmptyHeight && !isEmptyWidth)
+            if (wallCheckButton.Checked && !isEmptyHeightBox && !isEmptyWidthBox)
             {
                 wall = new Wall(double.Parse(heightInputBox.Text), double.Parse(widthInputBox.Text));            //  Create new wall
                 wallStorage.AddWall(wall);                                                         //add wall to storage                               
                 resultBox.AppendText(wall.GetSquareMeters() + Environment.NewLine);       // print sum of wall
                 totalWallsBox.Text = wallStorage.GetAllWallSum().ToString() + "m²";
             }
-            else if (windowCheckButton.Checked && !isEmptyHeight && !isEmptyWidth)
+            else if (windowCheckButton.Checked && !isEmptyHeightBox && !isEmptyWidthBox)
             {
                 window = new Window(double.Parse(heightInputBox.Text), double.Parse(widthInputBox.Text));
                 windowStorage.AddWindow(window);
@@ -105,7 +105,7 @@ namespace Square_Meter
                 resultBox.AppendText(window.GetSquareMeters() + Environment.NewLine);
                 totalWindowsBox.Text = windowStorage.GetAllWindowsSum().ToString() + "m²";
             }
-            else if (revealCheckButton.Checked && !isEmptyHeight && !isEmptyWidth && !isEmptyReveal)
+            else if (revealCheckButton.Checked && !isEmptyHeightBox && !isEmptyWidthBox && !isEmptyRevealBox)
             {
                 window = new Window(double.Parse(heightInputBox.Text), double.Parse(widthInputBox.Text));
                 windowStorage.AddWindow(window);
@@ -125,9 +125,9 @@ namespace Square_Meter
             widthInputBox.Clear();
             revealInputBox.Clear();
             heightInputBox.Focus();
-            isEmptyHeight = true;
-            isEmptyWidth = true;
-            isEmptyReveal = true;
+            isEmptyHeightBox = true;
+            isEmptyWidthBox = true;
+            isEmptyRevealBox = true;
         }
 
         private void ResetButtonClick(object sender, EventArgs e) // Reset all
