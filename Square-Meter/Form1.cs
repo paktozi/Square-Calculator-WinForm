@@ -28,7 +28,7 @@ namespace Square_Meter
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void heightInputBox_TextChanged(object sender, EventArgs e)
         {
             if (heightInputBox.Focused && totalButtonIsPressed)
             {
@@ -42,6 +42,7 @@ namespace Square_Meter
 
             if (!string.IsNullOrWhiteSpace(heightInputBox.Text))
             {
+
                 if (double.TryParse(heightInputBox.Text, out height))
                 {
                     height = double.Parse(heightInputBox.Text);
@@ -54,7 +55,8 @@ namespace Square_Meter
                 }
             }
         }
-        private void textBox2_TextChanged(object sender, EventArgs e)
+
+        private void widthInputBox_TextChanged(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(widthInputBox.Text))
             {
@@ -71,7 +73,7 @@ namespace Square_Meter
             }
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
+        private void revealInputBox_TextChanged(object sender, EventArgs e)
         {
             if (!string.IsNullOrWhiteSpace(revealInputBox.Text))
             {
@@ -151,9 +153,7 @@ namespace Square_Meter
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
         }
-        private void richTextBox2_TextChanged(object sender, EventArgs e)
-        {
-        }
+
 
         private void TotalButtonClick(object sender, EventArgs e)    //  Total button
         {

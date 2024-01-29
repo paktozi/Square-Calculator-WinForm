@@ -60,13 +60,13 @@
             heightInputBox.BackColor = SystemColors.Window;
             resources.ApplyResources(heightInputBox, "heightInputBox");
             heightInputBox.Name = "heightInputBox";
-            heightInputBox.TextChanged += textBox1_TextChanged;
+            heightInputBox.TextChanged += heightInputBox_TextChanged;
             // 
             // widthInputBox
             // 
             resources.ApplyResources(widthInputBox, "widthInputBox");
             widthInputBox.Name = "widthInputBox";
-            widthInputBox.TextChanged += textBox2_TextChanged;
+            widthInputBox.TextChanged += widthInputBox_TextChanged;
             // 
             // resultBox
             // 
@@ -171,7 +171,7 @@
             // 
             resources.ApplyResources(revealInputBox, "revealInputBox");
             revealInputBox.Name = "revealInputBox";
-            revealInputBox.TextChanged += textBox3_TextChanged;
+            revealInputBox.TextChanged += revealInputBox_TextChanged;
             // 
             // label6
             // 
