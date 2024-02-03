@@ -227,6 +227,7 @@
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ButtonHighlight;
+            BackgroundImage = Properties.Resources.mathWindow2;
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label8);

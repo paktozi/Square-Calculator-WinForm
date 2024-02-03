@@ -26,6 +26,7 @@ namespace Square_Meter
         public Form1()
         {
             InitializeComponent();
+            BackgroundImage = Properties.Resources.mathWall;
         }
 
         private void heightInputBox_TextChanged(object sender, EventArgs e)
@@ -193,6 +194,7 @@ namespace Square_Meter
         {
             if (wallCheckButton.Checked)
             {
+                BackgroundImage = Properties.Resources.mathWall;
                 windowCheckButton.Checked = false;
                 revealCheckButton.Checked = false;
                 heightInputBox.Focus();
@@ -203,6 +205,7 @@ namespace Square_Meter
         {
             if (windowCheckButton.Checked)
             {
+                BackgroundImage = Properties.Resources.mathWindow2;
                 wallCheckButton.Checked = false;
                 revealCheckButton.Checked = false;
                 heightInputBox.Focus();
@@ -217,6 +220,7 @@ namespace Square_Meter
 
             if (revealCheckButton.Checked)
             {
+                BackgroundImage = Properties.Resources.mathReveal;
                 wallCheckButton.Checked = false;
                 windowCheckButton.Checked = false;
                 heightInputBox.Focus();
