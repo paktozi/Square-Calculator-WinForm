@@ -96,8 +96,9 @@
             // 
             // button3
             // 
-            button3.BackColor = Color.Firebrick;
+            button3.BackColor = Color.IndianRed;
             resources.ApplyResources(button3, "button3");
+            button3.FlatAppearance.BorderSize = 0;
             button3.ForeColor = SystemColors.ActiveCaptionText;
             button3.Name = "button3";
             button3.UseVisualStyleBackColor = false;

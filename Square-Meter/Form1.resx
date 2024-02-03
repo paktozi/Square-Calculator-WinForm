@@ -261,6 +261,9 @@
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
+  <data name="button3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
   <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>

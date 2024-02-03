@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Square-Meter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e85a066c7cf92854282970e4ed36758828a4e056")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b00da50293f102636e109fe466516ddbe510aa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Square-Meter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Square-Meter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
