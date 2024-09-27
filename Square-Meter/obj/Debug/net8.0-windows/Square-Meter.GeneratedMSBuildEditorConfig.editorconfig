@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Square_Meter
-build_property.ProjectDir = C:\Users\mirizlivka\Documents\GitHub\Square-Calculator-Code\Square-Meter\
+build_property.ProjectDir = C:\Users\mirizlivka\Documents\GitHub\Square-Calculator-WinForm\Square-Meter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
